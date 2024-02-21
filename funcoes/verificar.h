@@ -7,7 +7,7 @@
 #include <string.h>
 
 int verificarTabela(char *nome);
-int verificarColuna(int id, char *nome);
+int verificarColuna(int id);
 int verificarChave(int id, char *valor);
 int proximoEspacoVazio();
 int proximaLinha(int idTabela);

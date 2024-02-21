@@ -10,7 +10,7 @@ int verificarTabela(char *nome)
     return -1;
 }
 
-int verificarColuna(int id, char *nome)
+int verificarColuna(int id)
 {
     for (int i = 0; i < 20; i++)
     {

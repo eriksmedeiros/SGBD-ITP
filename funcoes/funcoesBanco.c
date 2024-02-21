@@ -59,7 +59,7 @@ void criaTab()
         printf("Defina o nome da coluna %i: ", i);
         scanf("%s", nomeCol);
 
-        while (verificarColuna(idTabela, nomeCol) == 1)
+        while (verificarColuna(idTabela) == 1)
         {
             printf("Nome de Coluna já existe!\n");
             printf("Defina o nome da coluna %i: ", i);

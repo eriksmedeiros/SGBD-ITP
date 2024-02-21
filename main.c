@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "funcoes/funcoesBanco.h"
 
-int main(int argc, char const *argv[])
+int main()
 {
     carregarArquivo();
 
